@@ -4,17 +4,13 @@ function rvm1217_4 () {
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Double))
-    basic.showNumber(0)
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(392, music.beat(BeatFraction.Double))
-    basic.showNumber(6)
 }
 function rvm1217_1 () {
-    basic.showString("Hello!")
-    basic.showNumber(2)
     music.playTone(392, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Half))
@@ -25,7 +21,6 @@ function rvm1217_1 () {
     music.playTone(440, music.beat(BeatFraction.Whole))
 }
 function rvm1217_2 () {
-    basic.showNumber(0)
     music.rest(music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(587, music.beat(BeatFraction.Whole))
@@ -35,7 +30,6 @@ function rvm1217_2 () {
     music.playTone(523, music.beat(BeatFraction.Half))
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(392, music.beat(BeatFraction.Whole))
-    basic.showNumber(2)
 }
 function rvm1217_3 () {
     music.playTone(392, music.beat(BeatFraction.Whole))
@@ -46,14 +40,12 @@ function rvm1217_3 () {
     music.playTone(587, music.beat(BeatFraction.Half))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
-    basic.showNumber(0)
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(587, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Double))
-    basic.showNumber(3)
 }
 function rvm1217_5 () {
     music.playTone(587, music.beat(BeatFraction.Whole))
@@ -62,7 +54,6 @@ function rvm1217_5 () {
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(784, music.beat(BeatFraction.Whole))
     music.playTone(392, music.beat(BeatFraction.Whole))
-    basic.showIcon(IconNames.Heart)
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(440, music.beat(BeatFraction.Whole))
@@ -70,7 +61,6 @@ function rvm1217_5 () {
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
-    basic.showIcon(IconNames.Happy)
 }
 basic.showNumber(1)
 basic.forever(function () {

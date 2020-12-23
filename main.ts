@@ -18,7 +18,7 @@ function _5 () {
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(784, music.beat(BeatFraction.Whole))
     music.playTone(392, music.beat(BeatFraction.Whole))
-    basic.showIcon(IconNames.Happy)
+    basic.showIcon(IconNames.Heart)
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(440, music.beat(BeatFraction.Whole))
@@ -26,10 +26,9 @@ function _5 () {
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
+    basic.showIcon(IconNames.Happy)
 }
 function _3 () {
-    music.rest(music.beat(BeatFraction.Double))
-    basic.showNumber(1)
     music.playTone(392, music.beat(BeatFraction.Whole))
     music.playTone(659, music.beat(BeatFraction.Whole))
     music.playTone(659, music.beat(BeatFraction.Half))
@@ -38,14 +37,14 @@ function _3 () {
     music.playTone(587, music.beat(BeatFraction.Half))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
-    basic.showNumber(3)
+    basic.showNumber(0)
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(392, music.beat(BeatFraction.Half))
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(587, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Double))
-    basic.showNumber(0)
+    basic.showNumber(3)
 }
 function _4 () {
     music.playTone(392, music.beat(BeatFraction.Whole))
@@ -53,13 +52,13 @@ function _4 () {
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Double))
-    basic.showNumber(6)
+    basic.showNumber(0)
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(392, music.beat(BeatFraction.Double))
-    basic.showIcon(IconNames.Heart)
+    basic.showNumber(6)
 }
 function _1 () {
     basic.showString("Hello!")
@@ -73,11 +72,11 @@ function _1 () {
     music.playTone(440, music.beat(BeatFraction.Whole))
     music.playTone(440, music.beat(BeatFraction.Whole))
 }
-_1()
-_2()
-_3()
-_4()
-_5()
+basic.showNumber(1)
 basic.forever(function () {
-	
+    _1()
+    _2()
+    _3()
+    _4()
+    _5()
 })
